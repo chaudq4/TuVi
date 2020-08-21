@@ -4,5 +4,7 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorBackground">#FFE082</color>
-    <color name="colorFocus">#C60101</color>
+    <color name="colorFocus">#eb3238</color>
+    <color name="colorDefaultTextLight">#DDDDDD</color>
+    <color name="colorDefaultTextDark">#605E5E</color>
 </resources>
