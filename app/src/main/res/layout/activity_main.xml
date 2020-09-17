@@ -32,43 +32,55 @@
         android:orientation="horizontal">
 
         <Spinner
+            android:textAlignment="textStart"
+            android:id="@+id/sp_gio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="Giờ" />
+
+        <Spinner
+            android:id="@+id/sp_ngay"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:hint="Ngày" />
 
         <Spinner
+            android:id="@+id/sp_thang"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:hint="Ngày" />
+            android:hint="Tháng" />
 
         <Spinner
+            android:id="@+id/sp_nam"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:hint="Ngày" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:hint="Năm" />
     </LinearLayout>
 
 
-    <Button
+    <LinearLayout
 
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_gravity="center"
         android:layout_weight="2"
-        android:gravity="center"
-        android:text="Lấy lá số" />
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAnSao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lấy lá số" />
+    </LinearLayout>
 
     <TextView
-        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="bottom"
         android:text="Version 1.0.1"
